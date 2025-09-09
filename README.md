@@ -26,15 +26,16 @@ O sistema simula uma rede de **usuários e filmes** e utiliza conexões em grafo
 
 ## Screenshots
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 
 ## Instalação e Ferramentas
 - **Python 3.13**
 - **Streamlit** (interface gráfica)
 - **NetworkX** (criação e manipulação de grafos)
 - **Matplotlib** (visualização do grafo)
-
-
-## Pré-requisitos
 
 
 ## Como compilar e executar o projeto
@@ -56,14 +57,15 @@ O sistema simula uma rede de **usuários e filmes** e utiliza conexões em grafo
 
 ## Uso 
 
+É similar a como as plataformas de streaming usam para recomendar filme específicos para os usuários, com base no que ele assiste, fazendo com que o cliente passe mais tempo em sua plataforma pois se conecta com ela.
 
 ## Apresentação 
-<!-- 
+
 <div align="center">
-<a href="https://youtu.be/xxxx"><img src="https://i.imgur.com/xxxx.png" width="50%"></a>
+<a href="https://youtu.be/J2vWeI3p2h4"><img src="https://i.imgur.com/xxxx.png" width="50%"></a>
 </div>
 
-<font size="3"><p style="text-align: center">Autor: [Diogo Barboza](https://github.com/) e [Daniel Ferreira](https://github.com/).</p></font> -->
+<font size="3"><p style="text-align: center">Autor: [Diogo Barboza](https://github.com/) e [Daniel Ferreira](https://github.com/).</p></font>
 
 
 ## Outros 
