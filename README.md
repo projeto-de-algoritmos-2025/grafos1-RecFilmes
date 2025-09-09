@@ -16,24 +16,42 @@
 </table>
 
 | Matrícula   | Aluno                             |
-| ----------- | ---------------------------------- |
-| 22/XXXXXXX  | Daniel Ferreira      |
+| ----------- | ----------------------------------|
+| 22/XXXXXXX  | Daniel Ferreira                   |
 | 22/2006660  | Diogo Rodrigues Barboza           |
 </div>
 
 ## Sobre 
-
+O sistema simula uma rede de **usuários e filmes** e utiliza conexões em grafo para gerar recomendações.
 
 ## Screenshots
 
 
-## Instalação 
-**Linguagem**:
+## Instalação e Ferramentas
+- **Python 3.13**
+- **Streamlit** (interface gráfica)
+- **NetworkX** (criação e manipulação de grafos)
+- **Matplotlib** (visualização do grafo)
+
 
 ## Pré-requisitos
 
 
 ## Como compilar e executar o projeto
+
+1. Clone este repositório  
+2. Crie um ambiente virtual:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Instale as dependências
+    ```bash
+    pip install -r requirements.txt
+
+4. Execute o projeto:
+    ```bash
+    streamlit run app.py
 
 
 ## Uso 
