@@ -17,7 +17,7 @@
 
 | Matrícula   | Aluno                             |
 | ----------- | ----------------------------------|
-| 22/XXXXXXX  | Daniel Ferreira                   |
+| 22/2006632  | Daniel Ferreira                   |
 | 22/2006660  | Diogo Rodrigues Barboza           |
 </div>
 
