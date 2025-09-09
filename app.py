@@ -63,14 +63,37 @@ if usuario_selecionado:
     todos_filmes = set(f for lista in usuarios.values() for f in lista)
     pos.update((f, (1, i)) for i, f in enumerate(todos_filmes))
 
+    # --- Layout bipartido ---
+    pos = {}
+    pos.update((user, (0, i)) for i, user in enumerate(usuarios.keys()))
+    todos_filmes = set(f for lista in usuarios.values() for f in lista)
+    pos.update((f, (1, i)) for i, f in enumerate(todos_filmes))
+
+    # --- Filmes que o usuário selecionado assistiu ---
+    filmes_assistidos = set(usuarios[usuario_selecionado])
+
+    # --- Cores das arestas ---
+    edge_colors = []
+    for u, v in G.edges():
+        if u in filmes_assistidos or v in filmes_assistidos:
+            edge_colors.append("red")   
+        else:
+            edge_colors.append("gray") 
+
+    # --- Desenho do grafo ---
     nx.draw(
         G, pos, with_labels=True,
-        node_size=1500, node_color=[
+        node_size=2000,
+        node_color=[
             "lightgreen" if n == usuario_selecionado else
-            "lightblue" if n in usuarios else
-            "lightcoral"
+            "skyblue" if n in usuarios else
+            "salmon"
             for n in G.nodes()
         ],
-        font_size=9, ax=ax
+        font_size=9, ax=ax,
+        font_color="black",
+        edge_color=edge_colors,
+        width=2
     )
     st.pyplot(fig)
+
