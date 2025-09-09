@@ -16,36 +16,56 @@
 </table>
 
 | Matrícula   | Aluno                             |
-| ----------- | ---------------------------------- |
-| 22/XXXXXXX  | Daniel Ferreira      |
+| ----------- | ----------------------------------|
+| 22/XXXXXXX  | Daniel Ferreira                   |
 | 22/2006660  | Diogo Rodrigues Barboza           |
 </div>
 
 ## Sobre 
-
+O sistema simula uma rede de **usuários e filmes** e utiliza conexões em grafo para gerar recomendações.
 
 ## Screenshots
 
+![alt text](image.png)
 
-## Instalação 
-**Linguagem**:
+![alt text](image-1.png)
 
-## Pré-requisitos
+
+## Instalação e Ferramentas
+- **Python 3.13**
+- **Streamlit** (interface gráfica)
+- **NetworkX** (criação e manipulação de grafos)
+- **Matplotlib** (visualização do grafo)
 
 
 ## Como compilar e executar o projeto
 
+1. Clone este repositório  
+2. Crie um ambiente virtual:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Instale as dependências
+    ```bash
+    pip install -r requirements.txt
+
+4. Execute o projeto:
+    ```bash
+    streamlit run app.py
+
 
 ## Uso 
 
+É similar a como as plataformas de streaming usam para recomendar filme específicos para os usuários, com base no que ele assiste, fazendo com que o cliente passe mais tempo em sua plataforma pois se conecta com ela.
 
 ## Apresentação 
-<!-- 
+
 <div align="center">
-<a href="https://youtu.be/xxxx"><img src="https://i.imgur.com/xxxx.png" width="50%"></a>
+<a href="https://youtu.be/J2vWeI3p2h4"><img src="https://i.imgur.com/xxxx.png" width="50%"></a>
 </div>
 
-<font size="3"><p style="text-align: center">Autor: [Diogo Barboza](https://github.com/) e [Daniel Ferreira](https://github.com/).</p></font> -->
+<font size="3"><p style="text-align: center">Autor: [Diogo Barboza](https://github.com/) e [Daniel Ferreira](https://github.com/).</p></font>
 
 
 ## Outros 
