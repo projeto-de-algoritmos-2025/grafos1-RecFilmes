@@ -30,7 +30,6 @@ O sistema simula uma rede de **usuários e filmes** e utiliza conexões em grafo
 
 ![alt text](image-1.png)
 
-
 ## Instalação e Ferramentas
 - **Python 3.13**
 - **Streamlit** (interface gráfica)
